@@ -1,0 +1,21 @@
+:root {
+  --canvasWidth: 75vmin;
+  --canvasHeight: 75vmin;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: grid;
+  padding: 1in;
+  place-items: center;
+}
+
+.canvas {
+  height: var(--canvasHeight);
+  width: var(--canvasWidth);
+}
