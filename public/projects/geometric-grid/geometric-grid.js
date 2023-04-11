@@ -1,4 +1,10 @@
-import tinycolor from "https://cdn.skypack.dev/tinycolor2@1.4.2";
+import {
+  SVG,
+  random,
+  tinycolor,
+  gsap,
+  modulateColor
+} from "../../common/shared.js";
 
 let draw, squareSize, colors, colorPalette;
 

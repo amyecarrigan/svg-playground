@@ -1,7 +1,13 @@
 import { SVG } from "https://cdn.skypack.dev/@svgdotjs/svg.js";
-import {
+import { random } from "https://esm.sh/@georgedoescode/generative-utils";
+import tinycolor from "https://esm.sh/tinycolor2";
+import { gsap } from "https://esm.sh/gsap";
+import { modulateColor } from "./utils/modulate-color.js";
+
+export {
+  SVG,
   random,
-  map,
-  spline,
-  pointsInPath
-} from "https://cdn.skypack.dev/@georgedoescode/generative-utils@1.0.0";
+  tinycolor,
+  gsap,
+  modulateColor
+};
